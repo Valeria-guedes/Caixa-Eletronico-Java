@@ -16,6 +16,7 @@ public class ContaPrincipal {
         Random numero = new Random();
         int conta = 1 + numero.nextInt(9999);
        
+        System.out.println("Caixa");
         System.out.println("Seja bem vindo!! ");
         System.out.println("Digite  seu nome :");
         nome = entrada.nextLine();
